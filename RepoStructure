@@ -1,0 +1,8 @@
+powerbi-logistics-dashboard/
+  README.md
+  data/
+    generate_shipment_delays.py
+    shipment_delays.csv        # generated
+  layout/
+    measures_dax.txt
+    dashboard_notes.md
