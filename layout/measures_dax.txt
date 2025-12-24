@@ -1,0 +1,9 @@
+Total Shipments = SUM(shipment_delays[total_shipments])
+
+Late Shipments = SUM(shipment_delays[late_shipments])
+
+On-Time Shipments = [Total Shipments] - [Late Shipments]
+
+On-Time % = DIVIDE([On-Time Shipments], [Total Shipments])
+
+Avg Delay (hrs) = AVERAGE(shipment_delays[avg_delay_hours])
